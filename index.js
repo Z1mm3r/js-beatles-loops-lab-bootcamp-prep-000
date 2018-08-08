@@ -21,4 +21,6 @@ function johnLennonFacts(facts)
   {
     temp.push(facts[i] +  "!!!")
   }
+  
+  return temp;
 }
