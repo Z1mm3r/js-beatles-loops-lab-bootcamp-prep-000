@@ -12,3 +12,11 @@ function theBeatlesPlay(musicians,instruments)
   
   return temp;
 }
+
+function johnLennonFacts(facts)
+{
+  for(let i = 0; i < facts.length; i++)
+  {
+    temp.push(facts[i] +  " plays " + instruments[i]);
+  }
+}
